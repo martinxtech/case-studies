@@ -158,6 +158,7 @@ MainMenu As screen:
                 HoverFill: =RGBA(16, 110, 190, 1)
                 LayoutMinHeight: =70
                 LayoutMinWidth: =280
+                OnSelect: =Navigate(Tenants,ScreenTransition.Fade)
                 PaddingBottom: =0
                 PaddingLeft: =0
                 PaddingRight: =0

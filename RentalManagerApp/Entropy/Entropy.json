@@ -11,6 +11,7 @@
     "Host": 3,
     "Icon1": 6,
     "Icon2": 101,
+    "Icon3": 103,
     "Item_Expenses": 95,
     "Item_Income": 93,
     "Item_Reports": 99,
@@ -18,11 +19,12 @@
     "Label1": 5,
     "MainMenu": 8,
     "Splash": 4,
-    "splash-timer": 7
+    "splash-timer": 7,
+    "Tenants": 102
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/20/2024 01:57:40",
+  "HeaderLastSavedDateTimeUTC": "03/20/2024 02:02:31",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -52,6 +54,7 @@
     "Host": {},
     "Icon1": {},
     "Icon2": {},
+    "Icon3": {},
     "Item_Expenses": {},
     "Item_Income": {},
     "Item_Reports": {},
@@ -59,7 +62,8 @@
     "Label1": {},
     "MainMenu": {},
     "Splash": {},
-    "splash-timer": {}
+    "splash-timer": {},
+    "Tenants": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -73,6 +77,7 @@
     "Host": 0,
     "Icon1": 1,
     "Icon2": 12,
+    "Icon3": 0,
     "Item_Expenses": 6,
     "Item_Income": 4,
     "Item_Reports": 10,
@@ -80,7 +85,8 @@
     "Label1": 0,
     "MainMenu": 0,
     "Splash": 0,
-    "splash-timer": 2
+    "splash-timer": 2,
+    "Tenants": 0
   },
   "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},

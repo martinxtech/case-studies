@@ -137,6 +137,7 @@
   },
   "ScreenOrder": [
     "Splash",
-    "MainMenu"
+    "MainMenu",
+    "Tenants"
   ]
 }
