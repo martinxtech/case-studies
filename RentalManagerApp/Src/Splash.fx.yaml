@@ -18,7 +18,7 @@ Splash As screen:
         Text: ="Rental Manager"
         Width: =395
         X: =184
-        Y: =450
+        Y: =461
         ZIndex: =1
 
     Icon1 As icon.Money:
@@ -28,15 +28,17 @@ Splash As screen:
         DisabledColor: =RGBA(225, 223, 221, 1)
         DisabledFill: =RGBA(0, 0, 0, 0)
         FocusedBorderThickness: =4
+        Height: =117
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(16, 110, 190, 1)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.Money
+        Icon: =Icon.Home
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =RGBA(16, 110, 190, 1)
         PressedFill: =RGBA(0, 0, 0, 0)
-        X: =106
-        Y: =453
+        Width: =127
+        X: =57
+        Y: =414
         ZIndex: =2
 
     "'splash-timer' As timer":

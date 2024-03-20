@@ -118,7 +118,7 @@
     "Id": "dcd81477-084f-4683-989a-5c0d4ccf21d5",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "Rental Manager",
     "OriginatingVersion": "1.337",
     "ParserErrorCount": 0,
