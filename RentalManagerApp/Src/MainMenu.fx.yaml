@@ -16,7 +16,7 @@ MainMenu As screen:
         RadiusTopRight: =4
         X: =69
         Y: =153
-        ZIndex: =16
+        ZIndex: =1
 
         Item_Income As groupContainer.horizontalAutoLayoutContainer:
             AlignInContainer: =AlignInContainer.SetByContainer
@@ -40,6 +40,7 @@ MainMenu As screen:
             ZIndex: =1
 
             Button4 As button:
+                AlignInContainer: =AlignInContainer.Center
                 BorderColor: =RGBA(0, 0, 0, 0)
                 BorderStyle: =BorderStyle.None
                 DisabledBorderColor: =RGBA(0, 0, 0, 0)
@@ -52,9 +53,7 @@ MainMenu As screen:
                 HoverBorderColor: =RGBA(0, 0, 0, 0)
                 HoverColor: =RGBA(255, 255, 255, 1)
                 HoverFill: =RGBA(16, 110, 190, 1)
-                LayoutMinHeight: =70
-                LayoutMinWidth: =280
-                PaddingBottom: =0
+                PaddingBottom: =8
                 PaddingLeft: =0
                 PaddingRight: =0
                 PaddingTop: =0
@@ -244,5 +243,5 @@ MainMenu As screen:
         PressedFill: =RGBA(0, 0, 0, 0)
         X: =552
         Y: =1041
-        ZIndex: =17
+        ZIndex: =2
 
