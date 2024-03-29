@@ -2,7 +2,25 @@ Tenants As screen:
     Fill: =RGBA(251, 188, 159, 1)
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    Icon3 As icon.BackArrow:
+    Label1 As label:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 120, 212, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =45
+        Size: =21
+        Text: ="Back"
+        Width: =90
+        X: =117
+        Y: =49
+        ZIndex: =3
+
+    Icon4 As icon.ArrowLeft:
         BorderColor: =RGBA(0, 0, 0, 0)
         Color: =RGBA(0, 120, 212, 1)
         DisabledBorderColor: =RGBA(245, 245, 245, 1)
@@ -12,12 +30,49 @@ Tenants As screen:
         HoverBorderColor: =RGBA(0, 0, 0, 0)
         HoverColor: =RGBA(16, 110, 190, 1)
         HoverFill: =RGBA(0, 0, 0, 0)
-        Icon: =Icon.BackArrow
+        Icon: =Icon.ArrowLeft
         OnSelect: =Navigate(MainMenu,ScreenTransition.Fade)
         PressedBorderColor: =RGBA(0, 0, 0, 0)
         PressedColor: =RGBA(16, 110, 190, 1)
         PressedFill: =RGBA(0, 0, 0, 0)
         X: =40
         Y: =40
-        ZIndex: =1
+        ZIndex: =4
+
+    Label1_1 As label:
+        Align: =Align.Right
+        BorderColor: =RGBA(0, 0, 0, 0)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =2
+        Color: =RGBA(0, 120, 212, 1)
+        DisabledBorderColor: =RGBA(0, 0, 0, 0)
+        DisabledColor: =RGBA(161, 159, 157, 1)
+        FocusedBorderThickness: =4
+        Font: =Font.'Segoe UI'
+        FontWeight: =FontWeight.Semibold
+        Height: =45
+        Size: =21
+        Text: ="New"
+        Width: =90
+        X: =434
+        Y: =49
+        ZIndex: =5
+
+    Icon5 As icon.AddUser:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        Color: =RGBA(0, 120, 212, 1)
+        DisabledBorderColor: =RGBA(245, 245, 245, 1)
+        DisabledColor: =RGBA(225, 223, 221, 1)
+        DisabledFill: =RGBA(0, 0, 0, 0)
+        FocusedBorderThickness: =4
+        HoverBorderColor: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(16, 110, 190, 1)
+        HoverFill: =RGBA(0, 0, 0, 0)
+        Icon: =Icon.AddUser
+        PressedBorderColor: =RGBA(0, 0, 0, 0)
+        PressedColor: =RGBA(16, 110, 190, 1)
+        PressedFill: =RGBA(0, 0, 0, 0)
+        X: =541
+        Y: =40
+        ZIndex: =6
 
