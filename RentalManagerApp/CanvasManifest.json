@@ -101,7 +101,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
-    "BindingErrorCount": 1,
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "Phone",
@@ -116,7 +116,6 @@
     "FileID": "dcd81477-084f-4683-989a-5c0d4ccf21d5",
     "Id": "dcd81477-084f-4683-989a-5c0d4ccf21d5",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "",
     "ManualOfflineProfileId": "",
     "Name": "Rental Manager",
     "OriginatingVersion": "1.337",

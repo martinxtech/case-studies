@@ -1,0 +1,142 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr34c_newtables",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr34c_newtable",
+    "MaxGetRowsCount": 500,
+    "Name": "New tables",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr34c_enddate": "End Date",
+      "cr34c_firstname": "ID Number",
+      "cr34c_idnumber": "First Name",
+      "cr34c_lastname": "Last Name",
+      "cr34c_mobilenumber": "Mobile Number",
+      "cr34c_newtable_AsyncOperations": "System Jobs",
+      "cr34c_newtable_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr34c_newtable_DuplicateBaseRecord": "Duplicate Records (cr34c_newtable_DuplicateBaseRecord)",
+      "cr34c_newtable_DuplicateMatchingRecord": "Duplicate Records (cr34c_newtable_DuplicateMatchingRecord)",
+      "cr34c_newtable_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr34c_newtable_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr34c_newtable_ProcessSession": "Process Sessions",
+      "cr34c_newtable_SyncErrors": "Sync Errors",
+      "cr34c_newtableid": "New table",
+      "cr34c_startdate": "Start Date",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "New tables",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "New tables (Views)",
+    "Name": "_cr34c_newtable_views",
+    "RelatedEntityName": "New tables",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "40857bf2-306d-4535-9795-da7498675d1e": "Inactive New tables",
+      "51f6d235-a19d-4757-aecc-76652e0d3da6": "New table Associated View",
+      "556a0f9b-94a5-47d1-b83c-3da2b8862ab8": "New table Lookup View",
+      "e57043f0-28ad-4169-a989-7e78199d8c9e": "New table Advanced Find View",
+      "f52b57e7-65d3-4e12-8da4-7e535b56dcf8": "Active New tables"
+    }
+  },
+  {
+    "DisplayName": "Status (New tables)_1",
+    "Name": "cr34c_newtable_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "New tables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "New tables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (New tables)_1",
+    "Name": "cr34c_newtable_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "New tables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "New tables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (New tables)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_2f4e6ca277_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "New tables"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "New tables",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (New tables)",
+    "Name": "new_reserveentity_rp53fd1p1ekxpa_t7_2f4e6ca277_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "New tables"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "New tables",
+    "Type": "OptionSetInfo"
+  }
+]

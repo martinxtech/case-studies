@@ -2,6 +2,72 @@ Tenants As screen:
     Fill: =RGBA(251, 188, 159, 1)
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
+    Gallery1 As gallery.galleryVertical:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        DelayItemLoading: =true
+        Items: ='New tables'
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =119
+        Y: =165
+        ZIndex: =1
+
+        Label3 As label:
+            AutoHeight: =true
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderStyle: =BorderStyle.None
+            BorderThickness: =2
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(161, 159, 157, 1)
+            FocusedBorderThickness: =4
+            Font: =Font.'Segoe UI'
+            Height: =42
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =Concatenate(ThisItem.'First Name'," ",ThisItem.'Last Name')
+            Width: =467
+            X: =130
+            Y: =20
+            ZIndex: =3
+
+        Group1 As group:
+            Height: =5
+            Width: =5
+            X: =40
+            Y: =40
+            ZIndex: =3
+
+            Circle1 As circle:
+                BorderColor: =RGBA(245, 245, 245, 1)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                DisabledFill: =RGBA(0, 120, 212, 1)
+                Fill: =RGBA(0, 120, 212, 1)
+                HoverFill: =RGBA(0, 120, 212, 1)
+                OnSelect: =Select(Parent)
+                PressedFill: =RGBA(0, 120, 212, 1)
+                Y: =10
+                ZIndex: =1
+
+            Label2 As label:
+                Align: =Align.Center
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Semibold
+                Height: =100
+                OnSelect: =Select(Parent)
+                Size: =36
+                Text: =Concatenate(Left(ThisItem.'First Name',1),Left(ThisItem.'Last Name',1))
+                Width: =100
+                Y: =10
+                ZIndex: =2
+
     Label1 As label:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
